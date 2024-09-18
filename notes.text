@@ -1,3 +1,6 @@
 pip list
 mysql --version
 pip install mysql-connector-python
+pip install mysql-connector-python
+
+https://www.youtube.com/watch?v=QQM9Q1Cd5CA
