@@ -11,10 +11,10 @@ db_cursor = mydb.cursor() #cursor methord se hi sql queary chal payege
 
 
 sql = "INSERT INTO pn1 (name) VALUES (%s)"
-# val = ("raj",)
-dblist =[("ram")]
-# db_cursor.execute(sql, val)
-db_cursor.executemany(sql, dblist)
+val = ("raj",)
+# dblist =[("ram")]
+db_cursor.execute(sql, val)
+# db_cursor.executemany(sql, dblist)
 
 mydb.commit()
 

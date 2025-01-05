@@ -6,7 +6,7 @@ db_cursor = mydb.cursor() #cursor methord se hi sql queary chal payege
 
 # db_cursor.execute('SELECT * FROM emp')
 
-db_cursor.execute("SELECT * FROM emp WHERE roll =123")
+db_cursor.execute("SELECT * FROM emp WHERE name =123")
 
 myresult = db_cursor.fetchall()
 print(myresult)

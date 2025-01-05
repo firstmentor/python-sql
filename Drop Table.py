@@ -6,8 +6,8 @@ db_cursor = mydb.cursor() #cursor methord se hi sql queary chal payege
 
 
 
-#sql = "DROP TABLE emp"
-sql ="truncate table emp"
+sql = "DROP TABLE emp"
+sql ="truncate table emp"  #table data delete
 
 db_cursor.execute(sql)
 

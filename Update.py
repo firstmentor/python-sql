@@ -5,7 +5,7 @@ db_cursor = mydb.cursor() #cursor methord se hi sql queary chal payege
 
 
 
-sql = "UPDATE emp SET roll = '451   ' WHERE ename = 'ram'"
+sql = "UPDATE emp SET roll = '451' WHERE ename = 'ram'"
 
 db_cursor.execute(sql)
 
