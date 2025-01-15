@@ -3,21 +3,21 @@
 
 # 1-D-Arrays
 
-# import numpy as np
-# arr =np.array([1,2,3,4]) #0 123 4
-# print(arr[1])
-# print(arr[2] + arr[3])
+import numpy as np
+arr =np.array([1,2,3,4]) #0 123 4
+print(arr[1])
+print(arr[2] + arr[3])
 
 
 # Access 2-D Arrays
-# import numpy as np
+import numpy as np
 
-# arr = np.array([[1,2,3,4,5], [6,7,8,9,10]])   #rows and columns
-# 0#1 2 3 4 5  #row 0
-# 1#6 7 8 9 10
-# #columns
-# print('2nd element on 1st row: ', arr[1, 4])
-# print(arr[1][4])
+arr = np.array([[1,2,3,4,5], [6,7,8,9,10]])   #rows and columns
+0#1 2 3 4 5  #row 0
+1#6 7 8 9 10
+#columns
+print('2nd element on 1st row: ', arr[1, 4])
+print(arr[1][4])
 
 
 #Access 3-D Arrays
