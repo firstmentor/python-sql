@@ -2,7 +2,7 @@
 
 import numpy as np
 
-arr = np.array([[1, 2, 3], [5, 6, 7, 8,5]])
+arr = np.array([[1, 2, 3,4], [5, 6, 7, 8]])
 
 print(arr.shape)  
 #(2,5) which enas the array has 2 dimensions and it has 4 elements
@@ -10,10 +10,10 @@ print(arr.shape)
 
 
 
-# import numpy as np
+import numpy as np
 
-# arr = np.array([1, 2, 3, 4], ndmin=5)
+arr = np.array([1, 2, 3, 4], ndmin=5)
 
-# print(arr)
-# print('shape of array :', arr.shape)   #(1,1,1,1,4)
+print(arr)
+print('shape of array :', arr.shape)   #(1,1,1,1,4)
 # [[[[[1,2,3,4]]]]]

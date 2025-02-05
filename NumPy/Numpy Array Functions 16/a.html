@@ -1,0 +1,17 @@
+<script>
+function sumOddEvenIndexValues(arrA, arrB) {
+  let result = [];
+  for (let i = 0; i < arrA.length; i++) {
+    let oddValue = Math.floor(arrA[i] / 10) % 10;
+    let evenValue = Math.floor(arrB[i] / 10) % 10;
+    result.push(oddValue + evenValue);
+  }
+  console.log(result);
+}
+
+let arrA = [110, 130, 150, 170, 200];
+let arrB = [13, 17, 11, 15, 20];
+sumOddEvenIndexValues(arrA, arrB);
+
+
+</script>

@@ -2,12 +2,12 @@
 # Iterating means going through elements one by one.
 
 
-# import numpy as np
+import numpy as np
 
-# arr = np.array([1, 2, 3])
+arr = np.array([1, 2, 3])
 
-# for x in arr:
-#   print(x)
+for x in arr:
+  print(x)
 
 
 
@@ -62,13 +62,13 @@ for x in np.nditer(arr):
   print(x)
 
 
-# Iterating Array With Different Data Types
-# import numpy as np
+#Iterating Array With Different Data Types
+import numpy as np
 
-# arr = np.array([1, 2, 3])
+arr = np.array([1, 2, 3])
 
-# for x in np.nditer(arr, flags=['buffered'], op_dtypes=['S']):
-#   print(x)
+for x in np.nditer(arr, flags=['buffered'], op_dtypes=['S']):
+  print(x)
 
 
 # import numpy as np
@@ -82,21 +82,21 @@ for x in np.nditer(arr[:, ::2]):
 
 # Enumerated Iteration Using ndenumerate()
 
-# import numpy as np
+import numpy as np
 
-# arr = np.array([1, 2, 3])
+arr = np.array([1, 2, 3])
 
-# for idx, x in np.ndenumerate(arr):
-#   print(idx, x)
+for idx, x in np.ndenumerate(arr):
+  print(idx, x)
 
 # Enumerate on following 2D array's elements:
 
-# import numpy as np
+import numpy as np
 
-# arr = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
+arr = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
 
-# for idx, x in np.ndenumerate(arr):
-#   print(idx, x)
+for idx, x in np.ndenumerate(arr):
+  print(idx, x)
 
 
 
